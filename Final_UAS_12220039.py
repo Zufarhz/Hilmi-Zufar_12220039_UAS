@@ -36,7 +36,7 @@ setting = st.sidebar.selectbox( #Fungsi untuk memilih menu
 if setting == 'Halaman Awal' or setting == '' : #Fungsi ketika memilih halaman awal
     st.write("""# Produksi minyak di Dunia""") #memberikan header
     st.markdown("*Sumber data berasal dari produksi minyak_mentah.csv*") #informasi sumber
-    image1 = Image.open('C:/Users/ASUS/Downloads/Gambar excel.png') #Fungsi menambahkan gambar
+    image1 = Image.open('Gambar excel.png') #Fungsi menambahkan gambar
     st.image(image1, caption='excel produksi minyak mentah')
     data
 
